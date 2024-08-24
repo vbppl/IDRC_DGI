@@ -30,7 +30,7 @@ function numberAndAddQuestionsWithOptions() {
       
       // Add a new Multiple Choice question below the current question
       var newItem = form.addMultipleChoiceItem()
-                       .setTitle(mainQuestionNumber + ".1 " + 'Level');
+                       .setTitle(mainQuestionNumber + ".1 " + 'Select level of involvement');
   
       // Add the choices
       newItem.setChoices([
